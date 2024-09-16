@@ -16,15 +16,15 @@ Identify possible candidates for experimental testing by using structure-activit
 
 |                                                                                                                                                                                                                                                                                                                                                                                                                                         |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-|                         | SBVS                                           | LBVS                                           |
-|------------------------------------------------|------------------------------------------------|
-| Obtain Protein Structure (Known structure)     | Data collection (active compounds)            |
-| Compound library of small molecules            | Pharmacophore modeling (model development)    |
-| Dock each molecule into protein’s active site (via computational tools) | Similarity & substructure searching            |
-| Scoring (binding affinity evaluation)          | QSAR analysis (build model to predict biological activity) |
-| Post-processing (compounds ranking based on binding score) | 3D shape matching (identify compounds with spatial arrangement) |
-| Candidate selection (top-ranked compounds)     | Scoring and Ranking (based on similarity to known ligands with pharmacophore model) |
-|                                                | Selection of candidates (top-ranked compounds) |
+|                         | SBVS                                              |                 LBVS                           |
+|-----------------------------------------------------------------------------|------------------------------------------------|
+| Obtain Protein Structure (Known structure)                                  | Data collection (active compounds)             |
+| Compound library of small molecules                                         | Pharmacophore modeling (model development)     |
+| Dock each molecule into the protein’s active site (via computational tools) | Similarity & substructure searching            |
+| Scoring (binding affinity evaluation)                                       | QSAR analysis (build model to predict biological activity) |
+| Post-processing (compounds ranking based on binding score)                  | 3D shape matching (identify compounds with spatial arrangement) |
+| Candidate selection (top-ranked compounds)                                  | Scoring and Ranking (based on similarity to known ligands with pharmacophore model) |
+|                                                                             | Selection of candidates (top-ranked compounds) |
 
 Table 1. Flowchart of different types of virtual screening \[4]
 
