@@ -3,6 +3,7 @@
 **Virtual Screening (VS)**
 
 Author (@slack): Tanvi Thakur (@Jerry)
+
 Github https://github.com/TanviBioLab/HackBio-Bioinformatics-internship-Cancer-Oncology/blob/main/Stage0_TechWriting.md
 
 Virtual screening is a computational biology technique identifying prospective leads from a vast library of small compounds by integrating docking, and pharmacophore models. As a result, a method is utilized to determine the possible interactions between chemical substances and proteins that alter their function. This can be a significant phase in the initial stages of drug research \[1]. This can be classified into two categories. 
