@@ -4,7 +4,7 @@
 
 **Authors** (@slack): Tanvi Thakur (@Jerry), Samreen Raza (@samRaza)
 
-**Github** https://github.com/TanviBioLab/HackBio-Bioinformatics-internship-Cancer-Oncology/edit/main/stage2_visualization.md 
+**Github** https://github.com/TanviBioLab/HackBio-Bioinformatics-internship-Cancer-Oncology/blob/main/stage2_visualization.md
 
 **Introduction** 
 
