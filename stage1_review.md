@@ -2,7 +2,7 @@
 
 **Protein-Ligand Docking in the Machine-Learning Era**
 
-**Authors (@slack):  Samreen Raza (@samRaza), Shaka (@Shaka), Tanvi Thakur (@Jerry)**
+**Authors (@slack)**:  Samreen Raza (@samRaza), Shaka (@Shaka), Tanvi Thakur (@Jerry)
 
 **Github** https://github.com/TanviBioLab/HackBio-Bioinformatics-internship-Cancer-Oncology/blob/main/stage1_review.md
 
