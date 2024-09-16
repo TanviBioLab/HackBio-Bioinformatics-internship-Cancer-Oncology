@@ -66,6 +66,6 @@ The main objective of VS is to find possible bioactive substances using computat
 
 7. Scior, T., Bender, A., Tresadern, G., Medina-Franco, J. L., Martínez-Mayorga, K., Langer, T., ... & Agrafiotis, D. K. (2012). Recognizing pitfalls in virtual screening: a critical review. _Journal of chemical information and modeling_, _52_(4), 867-881.
 
-Vyas, V., Jain, A., Jain, A., & Gupta, A. (2008). Virtual screening: a fast tool for drug design. _Scientia Pharmaceutica_, _76_(3), 333-360.
+8. Vyas, V., Jain, A., Jain, A., & Gupta, A. (2008). Virtual screening: a fast tool for drug design. _Scientia Pharmaceutica_, _76_(3), 333-360.
 
 <!--EndFragment-->
