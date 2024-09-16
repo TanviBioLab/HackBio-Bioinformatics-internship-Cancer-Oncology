@@ -4,6 +4,8 @@
 
 **Authors** (@slack): Tanvi Thakur (@Jerry), Samreen Raza (@samRaza)
 
+**Github** https://github.com/TanviBioLab/HackBio-Bioinformatics-internship-Cancer-Oncology/edit/main/stage2_visualization.md 
+
 **Introduction** 
 
 Cellular tumor antigen ****p53 is a transcription factor that responds to DNA damage by halting the cell cycle, allowing time for repair. If repair fails, p53 triggers apoptosis to prevent damaged DNA from being passed on, reducing cancer risk **\[1]**. The human p53 protein consists of 393 amino acids with key domains: transcription activation domains (TAD1: 1-40, TAD2: 41-60), proline-rich region (61-93), DNA-binding domain (102-293), tetramerization domain (323-353), and C-terminal domain (364-393) **\[2]**. Mutations, particularly in key amino acids like R175, R248, and R273 **\[3]-\[4]**, are found in about 50% of human cancers **\[5]-\[6]**. This makes p53 a major focus in cancer research for potential therapies **\[1]**. 
