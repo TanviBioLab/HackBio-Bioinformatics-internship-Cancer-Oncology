@@ -1,6 +1,6 @@
 <!--StartFragment-->
 
-**Report**
+**Modeling and Visualization**
 
 **Authors** (@slack): Tanvi Thakur (@Jerry), Samreen Raza (@samRaza)
 
