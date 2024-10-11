@@ -1,8 +1,8 @@
-<!--StartFragment-->
+ <!--StartFragment-->
 
 **Docking and Pipeline Implementation-2**
 
-Authors (@slack): Samreen Raza (@samRaza), Tanvi Thakur (@Jerry)
+Authors (@slack): Tanvi Thakur (@Jerry), Samreen Raza (@samRaza)
 
 **Phase 1**
 
@@ -13,7 +13,7 @@ High-throughput screening is critical in cancer therapy discovery, particularly 
 
 ### **Methodology**
 
-1. **Dataset Preparation:** Selected SK-MEL-2 from the GDSC1 dataset ( 402 entries), added SMILES from PubChem/DrugBank, and removed entries with missing SMILES.
+1. **Dataset Preparation:** Selected SK-MEL-2 from the GDSC1 dataset ( 402 entries), added SMILES from PubChem/DrugBank and removed entries with missing SMILES.
 
 2. **Data Upload:** Imported the dataset (drug names, cell line descriptions, IC50 values), into a Pandas DataFrame.
 
@@ -30,16 +30,37 @@ High-throughput screening is critical in cancer therapy discovery, particularly 
 
 ### **Results**
 
-|                              |                                  |                                                       |                                                                        |
-| :--------------------------: | :------------------------------: | :---------------------------------------------------: | :--------------------------------------------------------------------: |
-|     **Evaluation Stages**    |            **Metric**            |                       **Value**                       |                                **Notes**                               |
-|  ### **Performance Metrics** |             MAEMSER²             |                   2.02866.75410.0372                  | Best performance among modelsSlight positive correlation with LN\_IC50 |
-|       **Other Models**       |  DummyRegressorDecision Tree etc |                 Higher MAE Negative R²                |                      Poor performance Ineffective                      |
-|       **Model Tuning**       |          Hyperparameters         | alpha\_1:0.001alpha\_2:0.2lambda\_1:0.2lambda\_2: 0.2 |                 Optimized using tune\_model() function                 |
-|     **Cross-Validation**     | Mean MAEMean MSEMean RMSEMean R² |                2.02626.73292.57440.0389               |                        Limited explanatory power                       |
-| **Test Dataset Performance** |             MAERMSER²            |                   2.20172.79600.0213                  |                         Low predictive accuracy                        |
-| **Full Dataset Predictions** |           MAEMSERMSER²           |                2.10707.07662.66020.0593               |                   Limited ability to explain variance                  |
-|       **Visualization**      |         R²(Scatter Plot)         |                         0.2445                        |                 Weak correlation, need for improvement                 |
+|                              |                |                   |                                             |                                                            
+| :--------------------------: | :------------: | :---------------: | :-----------------------------------------: |
+|     **Evaluation Stages**    |    **Metric**  |     **Value**     |              **Notes**                      |
+|  ### **Performance Metrics** |       MAE      |      2.0286       |      Best performance among models          |   
+|                              |       MSE      |      6.7541       |
+|                              |        R²      |      0.0372       |  Slight positive correlation with LN\_IC50  |
+            |
+|       **Other Models**       |      Dummy     |     Higher MAE    |             Poor performance                |                                                               
+                               |     Regressor  |                   |                                             | 
+|                              |   Decision Tree|     Negative R²   |                  Ineffective                | 
+            |
+|       **Model Tuning**       |Hyperparameters |   alpha\_1:0.001  |  Optimized using tune\_model() function     |  
+|                              |                |    alpha\_2:0.2   |                                             |
+|                              |                |   lambda\_1:0.2   |                                             |
+|                              |                |   lambda\_2: 0.2  |                                             |
+            |
+|     **Cross-Validation**     |    MeanMAE     |      2.0262       |         Limited explanatory power           | 
+|                              |    MeanMSE     |      6.7329       |                                             |
+|                              |    MeanRMSE    |      2.5744       |                                             |
+|                              |     MeanR²     |      0.0389       |                                             |
+            |
+| **Test Dataset Performance** |      MAE       |      2.2017       |          Low predictive accuracy            |     
+|                              |     RMSE       |      2.7960       |                                             |
+|                              |       R²       |      0.0213       |                                             |
+            |
+| **Full Dataset Predictions** |      MAE       |      2.1070       |        Limited ability to explain variance  |
+|                              |      MSE       |      7.0766       |                                             |                  
+|                              |     RMSE       |      2.6602       |                                             |
+|                              |       R²       |      0.0593       |                                             |
+            |
+|       **Visualization**      |R²(Scatter Plot)|      0.2445       |    Weak correlation, need for improvement   |
 
 
 ### **Table 1:** Evaluation Metrics and Model Performance Summary
@@ -50,7 +71,7 @@ Only SMILES-based molecular descriptors gave low R² values (0.0372 for training
 
 **Conclusion**
 
-The Bayesian Ridge model, despite being the best performer, showed limited predictive accuracy for IC50 values, with weak correlation and low R². Further refinement and alternative approaches are needed to improve predictive performance.
+Despite being the best performer, the Bayesian Ridge model showed limited predictive accuracy for IC50 values, with weak correlation and low R². Further refinement and alternative approaches are needed to improve predictive performance.
 
 **Phase 2**
 
